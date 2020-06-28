@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <title>Register</title>
+</head>
+<body>
+  <nav>
+    <a href="HangOut.html">Home</a>
+
+    <a href="packages.html">Our Packages</a>
+    <a href="hotel.html" target="_blank">Hotel & Resort</a>
+    <a href="resturants.html" target="_blank">Order Food</a>
+    <a href="rentalcar.html" target="_blank">Car Rental</a>
+    <a href="register.html" target="_blank">Register</a>
+  </nav>
+  <h3>Register in HangOut</h3>
+  <form method="GET">
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="Your Name" name="name" />
+    <br />
+    <label for="email">Email:</label>
+    <input
+      type="email"
+      id="email"
+      placeholder="Email Adress"
+      name="email"
+      required
+    />
+    <br />
+    <label>Upload Your Profile Picture</label>
+    <input type="file" accept="image/*" <br />
+    <p>Select Your Gender</p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male" checked />
+    <br />
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female" />
+    <br />
+    <p>Birthdate :</p>
+    <input type="date" />
+    <br />
+    <br />
+    <button type="submit">Submit</button>
+    <input type="reset" value="Reset" />
+  </form>
+</body>
